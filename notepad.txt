@@ -1,0 +1,55 @@
+
+Real-Time Notification System
+This is a simple real-time notification system built using Socket.IO, Node.js, and React.js. It allows users to receive live notifications when someone interacts with their posts.
+
+Features
+✅ Real-time user connections
+✅ Instant notifications for likes, comments, and interactions
+✅ User presence detection (online/offline)
+
+Technologies Used
+Backend: Node.js, Express, Socket.IO
+Frontend: React.js, Socket.IO-client
+Installation
+1️⃣ Backend Setup
+Clone the repository:
+sh
+Copy
+Edit
+git clone https://github.com/your-repo/real-time-notifications.git
+cd real-time-notifications/server
+Install dependencies:
+sh
+Copy
+Edit
+npm install
+Start the Socket.IO server:
+sh
+Copy
+Edit
+node index.js
+2️⃣ Frontend Setup
+Navigate to the frontend directory:
+sh
+Copy
+Edit
+cd ../client
+Install dependencies:
+sh
+Copy
+Edit
+npm install
+Start the React app:
+sh
+Copy
+Edit
+npm start
+How It Works
+User connects → Added to the online users list
+User likes or comments → Notification is sent in real time
+User disconnects → Removed from the online list
+Demo
+Open two browser windows, log in as different users, and test real-time notifications.
+Watch notifications appear instantly when users interact with posts.
+
+
